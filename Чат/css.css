@@ -1,0 +1,83 @@
+div, h1, h2 {
+	text-align: center;
+}
+
+button, input {
+    overflow: visible;
+    display: flex;
+    margin: auto;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    flex: auto;
+
+}
+
+input[type="text" i] {
+    padding: 3px 10px;
+}
+
+input, button {
+	outline: 0 !important;
+}
+
+button p {
+	text-align: center;
+	margin: 0.5em auto;
+}
+
+.message-window {
+    max-width: 500px;
+    margin: auto;
+    border-width: 2px;
+    border-style: outset;
+    height: 30em;
+    overflow: hidden;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-send {
+	display: flex;
+	flex-wrap: wrap;
+}
+#send {
+	margin: 0 1em;
+}
+.screen-of-message {
+	overflow-y: scroll;
+    overflow: auto
+}
+
+.my-message {
+    max-width: 200px;
+    margin-left: auto;
+    border-width: 2px;
+    border-style: outset;
+}
+
+.echo-message {
+	max-width: 200px;
+    margin-right: auto;
+    border-width: 2px;
+    border-style: outset;
+
+}
+
+.my-message, .echo-message{
+	overflow: auto;
+}
+
+.message-window div {
+	margin: 1em;
+
+}
+
+.message-window input, button{
+	margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.message-window, #message, #send, #geo, .echo-message, .my-message {
+	border-radius: 20px;
+}
